@@ -30,7 +30,7 @@ function prepareForMobile() {
 
     $('.grid-cell').css('width', cellSideLength);
     $('.grid-cell').css('height', cellSideLength);
-    $('.grid-cell').css('border-radius', 0.06 * cellSideLength);
+    $('.grid-cell').css('border-radius', 0.08 * cellSideLength);
 
 }
 
