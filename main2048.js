@@ -183,10 +183,9 @@ document.addEventListener('touchstart', function (event) {
     startx = event.touches[0].pageX;
     starty = event.touches[0].pageY;
 });
-
-document.addEventListener('touchmove', function (event) {
+//防止浏览器页面滑动
+document.getElementById('grid-container').addEventListener('touchmove', function (event) {
     event.preventDefault();
-    event.stopPropagation();
 });
 
 document.addEventListener('touchend', function (event) {
