@@ -184,7 +184,7 @@ document.addEventListener('touchstart', function (event) {
     starty = event.touches[0].pageY;
 });
 //防止浏览器页面滑动
-document.getElementById('grid-container').addEventListener('touchmove', function (event) {
+document.addEventListener('touchmove', function (event) {
     event.preventDefault();
 });
 
